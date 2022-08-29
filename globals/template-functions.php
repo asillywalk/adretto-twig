@@ -1,11 +1,11 @@
 <?php
 
-use Sillynet\WPTF\WpTwig\Service\Twig;
+use Sillynet\Adretto\WpTwig\Service\Twig;
 
 if (!function_exists("i")) {
     function i($template, $data = [])
     {
-        $theme = \Sillynet\WPTF\Theme::getInstance();
+        $theme = \Sillynet\Adretto\Theme::getInstance();
         $container = $theme->getContainer();
         $renderer = $container->get(Twig::class);
         try {
