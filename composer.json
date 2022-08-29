@@ -2,8 +2,8 @@
   "name": "sillynet/adretto-twig",
   "description": "Easily use Twig templates in Wordpress with sillynet/adretto",
   "type":"library",
-  "version": "0.0.0",
-  "require": {
+  "require"
+  : {
     "php": ">=7.4",
     "twig/twig": "^3.3",
     "sillynet/adretto": "^0.1.0"
