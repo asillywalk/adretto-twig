@@ -1,0 +1,40 @@
+{
+  "name": "sillynet/adretto-twig",
+  "description": "Easily use Twig templates in Wordpress with sillynet/adretto",
+  "type":"library",
+  "version": "0.0.0",
+  "require": {
+    "php": ">=7.4",
+    "twig/twig": "^3.3",
+    "sillynet/adretto": "^0.1.0"
+  },
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "andi",
+      "email": "andi@asillywalk.de"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Sillynet\\Adretto\\WpTwig\\": "src"
+    },
+    "files": [
+      "globals/template-functions.php"
+    ]
+  },
+  "scripts": {
+    "lint": [
+      "@phpstan",
+      "@phpcs"
+    ],
+    "phpstan": "phpstan analyse -c .phpstan.neon",
+    "phpcs": "phpcs -s"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.8",
+    "squizlabs/php_codesniffer": "^3.7",
+    "szepeviktor/phpstan-wordpress": "^1.1"
+  }
+}
