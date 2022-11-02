@@ -1,6 +1,6 @@
 {
   "name": "@sillynet/adretto-twig-util",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utilities for the sillynet/adretto-twig PHP composer package",
   "main": "",
   "engines": {
