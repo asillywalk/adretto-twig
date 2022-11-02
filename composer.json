@@ -7,7 +7,7 @@
     "php": ">=7.4",
     "ext-json": "*",
     "twig/twig": "^3.3",
-    "sillynet/adretto": "^0.1.0"
+    "sillynet/adretto": "~0.1"
   },
   "license": "GPL-3.0-only",
   "authors": [
