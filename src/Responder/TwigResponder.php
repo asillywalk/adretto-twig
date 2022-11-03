@@ -6,6 +6,11 @@ use Sillynet\Adretto\Responder\Responder;
 use Twig\Environment as TwigEnvironment;
 use Sillynet\Adretto\WpTwig\Service\Twig;
 
+/**
+ * @template A of \Sillynet\Adretto\Action\Action
+ * @phpstan-template A of \Sillynet\Adretto\Action\Action
+ * @implements Responder<A>
+ */
 abstract class TwigResponder implements Responder
 {
     protected TwigEnvironment $twig;

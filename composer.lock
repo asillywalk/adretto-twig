@@ -333,16 +333,16 @@
         },
         {
             "name": "sillynet/adretto",
-            "version": "v0.2.0",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asillywalk/adretto.git",
-                "reference": "045483873f0646b3cb982442d57f10befa5caa47"
+                "reference": "97837c7e3a04bae178d1eedcf638b6627e5aeacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asillywalk/adretto/zipball/045483873f0646b3cb982442d57f10befa5caa47",
-                "reference": "045483873f0646b3cb982442d57f10befa5caa47",
+                "url": "https://api.github.com/repos/asillywalk/adretto/zipball/97837c7e3a04bae178d1eedcf638b6627e5aeacd",
+                "reference": "97837c7e3a04bae178d1eedcf638b6627e5aeacd",
                 "shasum": ""
             },
             "require": {
@@ -375,9 +375,9 @@
             "description": "Write modern PHP (Action-Domain-Responder) in Wordpress themes.",
             "support": {
                 "issues": "https://github.com/asillywalk/adretto/issues",
-                "source": "https://github.com/asillywalk/adretto/tree/v0.2.0"
+                "source": "https://github.com/asillywalk/adretto/tree/v0.2.1"
             },
-            "time": "2022-11-02T23:33:02+00:00"
+            "time": "2022-11-03T00:16:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
